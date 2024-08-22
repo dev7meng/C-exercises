@@ -7,9 +7,9 @@ User input:
 ```
 What will be the values of i, x and j after the call?
 
-i = 10
-x = 0.3
-j = 5
+- i = 10
+- x = 0.3
+- j = 5
 
 BUT what happend to the extra space and a 6:
 scanf when search for the 2nd %d (or search for a value to assign to j) eventually
