@@ -7,6 +7,7 @@ User input:
 ```
 What will be the values of i, x and j after the call?
 
+##### Answer
 - i = 10
 - x = 0.3
 - j = 5
