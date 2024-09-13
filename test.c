@@ -1,9 +1,13 @@
 #include <stdio.h>
 
 int main (void) {
-	int i;
-	i = 0;
+	int i, sum = 10;
 
-	printf("%d", (i < 0) ? (i = -1) : ((i > 0) ? (i = 1) : (i = 0) ));
+	for (i = 0; i < 10; i++) {
+		if (i % 2)
+			continue;
+		sum += 1;
+	}	
+	printf("%d\n", sum);
 	return 0;
 }
